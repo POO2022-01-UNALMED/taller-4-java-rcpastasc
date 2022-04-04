@@ -17,7 +17,7 @@ public class Persona {
         totalPersonas++;
     }
     
-    persona(){  //4
+    Persona(){  //4
     	
     }
     
