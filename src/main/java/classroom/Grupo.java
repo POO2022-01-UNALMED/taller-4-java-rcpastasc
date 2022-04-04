@@ -8,7 +8,7 @@ public class Grupo {
     final int codigo = 0;
     String horario;
 
-    Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
+    Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {  //1
         this.estudiantes = estudiantes;
         this.profesor = profesor;
         this.asignatura = asignatura;

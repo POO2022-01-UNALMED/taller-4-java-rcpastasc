@@ -11,19 +11,23 @@ public class Persona {
         cedula = 3;
     }
 
-    Persona(long cedula, String nombre) {
+    Persona(long cedula, String nombre) {  //2
         this.cedula = cedula;
         this.nombre = nombre;
         totalPersonas++;
     }
     
-    Persona(String nombre, long cedula) {
+    persona(){  //4
+    	
+    }
+    
+    Persona(String nombre, long cedula) {  //3
         this.cedula = cedula;
         this.nombre = nombre;
         totalPersonas++;
     }
 
-    Persona(long cedula) {
+    Persona(long cedula) {   //1
         this.cedula = cedula;
         this.nombre = "";
         totalPersonas++;
