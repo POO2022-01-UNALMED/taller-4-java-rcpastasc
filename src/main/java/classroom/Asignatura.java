@@ -39,9 +39,9 @@ public class Asignatura {
         this.tipo = tipo;
     }
 
-    void cambiarDatos(int codigoInterno) {
-        this.codigoInterno = codigoInterno;
-    }
+ //   void cambiarDatos(int codigoInterno) {
+ //       this.codigoInterno = codigoInterno;
+//    }
 
     void cambiarDatos(int codigoExterno) {
         this.codigoExterno = codigoExterno;
@@ -55,7 +55,7 @@ public class Asignatura {
         this.codigoInterno = codigoInterno;
     }
     
-    public void setCodigoInterno(double codigoInterno) {
-        this.codigoInterno = (int) codigoInterno;
-    }
+//    public void setCodigoInterno(double codigoInterno) {
+//        this.codigoInterno = (int) codigoInterno;
+//    }
 }
