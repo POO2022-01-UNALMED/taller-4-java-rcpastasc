@@ -18,7 +18,7 @@ public class Persona {
     }
     
     Persona(){  //4
-    	
+    	cedula=0;
     }
     
     Persona(String nombre, long cedula) {  //3
