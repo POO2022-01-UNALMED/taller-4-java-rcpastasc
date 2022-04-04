@@ -8,7 +8,7 @@ public class Persona {
     
     static {
         totalPersonas = 0;
-        cedula = 3;
+        //cedula = 3;
     }
 
     Persona(long cedula, String nombre) {  //2
